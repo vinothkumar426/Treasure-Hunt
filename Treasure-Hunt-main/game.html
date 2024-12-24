@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treasure Hunt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Gowun+Batang&family=Kalam&family=Playfair+Display:ital,wght@1,600&family=Poppins:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div id="secondpage">
+      <img src="treasure-box.jpg" />
+    </div>
+    <div id="content">
+      <center>
+        <h1>Enter the passcode to open the chest</h1>
+        <h1>You have only ten chances</h1>
+      </center>
+    </div>
+    <input type="number" id="values"/>
+    <br>
+    <button class="clear" onclick="reset()">Clear</button>
+    <button id="open" onclick="check()">Open</button>
+    <h1 id="chance">Total Chance:10</h1>
+    <div id="message"></div>
+</body>
+</html>
+

@@ -1,0 +1,158 @@
+* {
+  font-family: "Alegreya", serif;
+  padding: 0%;
+  margin: 0%;
+}
+#firstpage img {
+  width: 1450px;
+  height: 750px;
+  position: relative;
+}
+.heading {
+  position: absolute;
+  top: 30%;
+  left: 9%;
+  font-size: 25px;
+}
+#start {
+  top: 60%;
+  left: 21%;
+  position: absolute;
+  background-color: transparent;
+  width: 110px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  animation: blink 1s infinite ease-in;
+}
+@keyframes blink{
+  0%{background-color:green;}
+  50%{
+    background-color: greenyellow;
+    box-shadow: 0px 0px 20px 2px greenyellow;
+  }
+}
+#start:hover {
+  background-color: red;
+  box-shadow: 0px 0px 20px 2px red;
+  color: aliceblue;
+}
+
+/* second page */
+
+#secondpage img{
+  width:1450px;
+  height:750px;
+  position: relative;
+}
+#content{
+  top:30%;
+  left:30%;
+  position:absolute;
+  color:white;
+  font-size: 30px;
+}
+#values{
+  top:60%;
+  left:45%;
+  position:absolute;
+  width:150px;
+  height:30px;
+  background-color:rgb(84, 79, 79);
+  font-size: 30px;
+  text-align: center;
+}
+.clear{
+  top:70%;
+  left:40%;
+  position: absolute;
+  width:100px;
+  height:30px;
+  background-color:rgb(200, 193, 193) ;
+  font-size: 20px;
+  cursor:pointer:
+}
+#open{
+  top:70%;
+  left:53%;
+  position: absolute;
+  width:100px;
+  height:30px;
+  background-color:rgb(200, 193, 193) ;
+  font-size: 20px;
+  animation: blink 1s infinite;
+  cursor:pointer;
+}
+@keyframes blink{
+  0%{background-color:green;}
+  50%{
+    background-color: greenyellow;
+    box-shadow: 0px 0px 20px 2px greenyellow;
+  }
+}
+#chance{
+  position: absolute;
+  top:80%;
+  left:45%;
+  color:white;
+}
+
+#message{
+  position: absolute;
+  top:90%;
+  left:45%;
+  color: white;
+  font-size: 35px;
+}
+
+/* third page */
+
+#win img{
+  width:1450px;
+  height:750px;
+  position: relative;
+}
+#para{
+  position:absolute;
+  top:35%;
+  left:35%;
+  font-size: 35px;
+}
+#playagain{
+  position: absolute;
+  top:70%;
+  left:45%;
+  width:200px;
+  height:50px;
+  font-size: 30px;
+  animation:blink 1s infinite;
+  color:green;
+  cursor:pointer;
+}
+
+/* loss page*/
+
+#losspage img{
+  width:1450px;
+  height:750px;
+  position: relative;
+}
+.para{
+position: absolute;
+top:25%;
+left:5%;
+font-size: 25px;
+}
+#tryagain{
+  position: absolute;
+top:75%;
+left:50%;
+width:150px;
+height:40px;
+font-size: 30px;
+animation: blink 1s infinite;
+background-color: transparent;
+cursor:pointer;
+}
